@@ -1,4 +1,3 @@
-#@Sucesso
 Dado(/^que eu limpei os cookies$/) do
   page.reset!
   browser = Capybara.current_session.driver.browser
